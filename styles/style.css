@@ -317,7 +317,7 @@ ol {
 
 /*Форма Кнопок в состоянии Hover*/
 
-button:hover {
+.button:hover {
   text-decoration: underline;
 }
 
