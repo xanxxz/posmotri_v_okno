@@ -169,7 +169,7 @@ ol {
 
 /*Форма поиска*/
 
-.search-form__fieldset-title{
+.search-form__fieldset-titl {
   padding-bottom: 5px;
   margin-top: 16px;
 }
@@ -222,7 +222,7 @@ ol {
   align-items: center;
 }
 
-.search-form__fieldset-title{
+.search-form__fieldset-title {
   margin-top: 16px;
 }
 .search-form__checkbox-list {
