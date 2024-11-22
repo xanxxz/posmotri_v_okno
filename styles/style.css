@@ -86,7 +86,7 @@ ol {
 
 .content__list {
   position: relative;
-  height: 298px;
+  height: 300px;
   overflow: auto;
 }
 
@@ -121,10 +121,11 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
+  padding-bottom: 4px;
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
@@ -142,17 +143,20 @@ ol {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
   text-transform: uppercase;
+  padding-bottom: 5px;
 }
 
 .content__video-card-description {
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
+  font-family: Fira Sans Condensed;
+  line-height: 16.2px;
 }
 
 /*Visually-hidden*/
@@ -168,11 +172,6 @@ ol {
 }
 
 /*Форма поиска*/
-
-.search-form__fieldset-titl {
-  padding-bottom: 5px;
-  margin-top: 16px;
-}
 
 .search-form__fieldset {
   border: none;
@@ -268,7 +267,7 @@ ol {
 
 /*Форма чекбокса в состоянии Hover*/
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
@@ -294,7 +293,7 @@ ol {
 }
 
 .more-button {
-  width: 399px;
+ width: 399px;
 }
 
 /*Форма кнопок в состоянии Focus*/
